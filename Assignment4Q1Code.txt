@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+    String String1 = ("Tennessee");
+    System.out.println(String1);
+
+    System.out.println("\nFirst character of String is: ");
+    System.out.println(String1.charAt(0));
+    System.out.println("\nLast character of String is: ");
+    System.out.println(String1.charAt(8));
+    System.out.println("\nSlicing characters from 3-12: " );
+    System.out.println(String1.substring(3,8));
+  }
+}
