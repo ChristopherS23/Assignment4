@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+    String[] String1 = {"Tennessee","Georgia"};
+    System.out.println(String1);
+
+    System.out.println("\nFirst character of String is: ");
+    System.out.println(String[-1]);
+    System.out.println("\nSlicing characters from 3-12: " );
+    System.out.println(String1[3-12]);
+  }
+}
