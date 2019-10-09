@@ -1,0 +1,27 @@
+class Main {
+  public static void main(String[] args) {
+
+String str = "Tennessee State University";  
+ 
+System.out.println(len(str));
+System.out.println(str.lower());
+System.out.println(str.upper()); 
+ 
+ String substr = "State";
+ 
+System.out.println (str.index(substr));
+System.out.println(str.startswith("State"));
+System.out.println(str.split(" "));
+System.out.println (str.find(substr));
+System.out.println (str.partition("State")); 
+
+myList = str.split(" ");
+for (String words : myList){        
+ System.out.println (words);
+  newStr = "TN, TX, NY, MA, VA, PA, LA, CA";
+  myStates = newStr.split(",");
+  System.out.println (myStates);
+}
+    System.out.println("Hello world!");
+  }
+}
